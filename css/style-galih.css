@@ -134,7 +134,7 @@ body {
 #home-page .home-content {
 	position: relative;
 	padding-top: 250px;
-	margin-left: 20px;
+	margin-left: 26%;
 }
 #home-page .home-content .btn {
 	margin-top: 30px;
@@ -159,10 +159,6 @@ body {
 	color: #fff;
 }
 /*==About==*/
-#about-page .container .about-profile {
-	width: 200px;
-	position: relative;
-}
 #about-page .container .personal-data {
 	position: relative;
 	display: flex;
@@ -172,14 +168,23 @@ body {
 	margin-top: 5px;
 	list-style: none;
 }
+#about-page .container .school {
+	position: relative;
+	display: flex;
+}
+#about-page .container .school ul li {
+	font-size: 20px;
+	margin-top: 5px;
+	list-style: none;
+}
 #about-page .container a {
 	text-decoration: none;
 	margin: 10px;
 }
 #about-page .container .btn {
-	width: 100%;
-	position: relative;
-	justify-content:center;
+		width: 100%;
+		position: relative;
+		justify-content: center;
 }
 /*==Skill==*/
 .skill {
@@ -215,7 +220,6 @@ body {
 }
 /*==contact==*/
 #contact-page .contact {
-	padding-right: 100px;
 	position: relative;
 }
 #contact-page .contact i {
@@ -244,9 +248,11 @@ textarea {
 }
 
 .container {
-	border-radius: 5px;
-	margin-left: 20px;
+	position: relative;
+	margin-left: 26%;
 	padding-top: 10px;
+	display: block;
+	overflow: hidden;
 }
 #project-page {
 	grid-column: auto;
@@ -277,9 +283,8 @@ textarea {
 	margin: 10px 10px 10px 10px;
 }
 .page {
-	width: 75%;
+	width: 100%;
 	height: 100vh;
-	margin-left: 25%;
 	position: relative;
 }
 .title {
@@ -336,7 +341,6 @@ textarea {
 		bottom: 0px;
 		height: 45px;
 		width: 100%;
-		display: flex;
 	}
 	.profile img {
 		display: none;
@@ -344,11 +348,23 @@ textarea {
 	.name h1 {
 		display: none;
 	}
-	#social-media {
-		display: none;
+
+	#sidebar #social-media {
+		position: absolute;
+		margin-top: -150px;
+		right: 5px;
 	}
+	#sidebar #social-media ul{
+		display: list-item;
+	}
+	#sidebar #social-media ul li{
+		position: relative;
+		transition: 2s;
+	}
+	#social-media ul li a:hover {
+	background-color: #009688;
+}
 	#menu {
-		display: flex;
 		align-items: center;
 		position: relative;
 		width: 100%;
@@ -359,11 +375,15 @@ textarea {
 		position: relative;
 		margin: 0 0 0;
 		justify-content: space-between;
-		margin-right: 35px;
+		justify-content: center;
+		text-align: center;
+		margin-right: 10px;
+		margin-left: -45px;
 	}
 	#menu ul li {
 		list-style-type: none;
 		text-align: center;
+
 	}
 	#menu ul li a {
 		text-decoration: none;
@@ -386,16 +406,10 @@ textarea {
 	.page {
 		width: 100%;
 		height: 100vh;
-		margin-left: 0;
 		position: relative;
 		margin-bottom: 200px;
 	}
 	/*==Home==*/
-	#home-page {
-		background-image: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)),
-			url(../img/galihjp.jpg);
-		background-size: cover;
-	}
 	.typing li {
 		list-style: none;
 		font-size: 20px;
@@ -403,6 +417,8 @@ textarea {
 	#home-page .home-content {
 		position: relative;
 		padding-top: 250px;
+		width: auto;
+		margin-left: 10px;
 	}
 	#home-page .home-content h1 {
 		color: #fff;
@@ -463,8 +479,7 @@ textarea {
 	}
 	/*==contact==*/
 	#contact-page .contact {
-		padding-right: 100px;
-		position: relative;
+		margin-bottom: 50px;
 	}
 	#contact-page .contact i {
 		font-size: 15px;
@@ -532,5 +547,11 @@ textarea {
 		width: 100%;
 		display: table;
 		clear: both;
+	}
+	.container {
+		position: relative;
+		padding-top: 10px;
+		width: auto;
+		margin-left: 10px;
 	}
 }
