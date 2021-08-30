@@ -177,7 +177,9 @@ body {
 	margin: 10px;
 }
 #about-page .container .btn {
-	margin-left: 250px;
+	width: 100%;
+	position: relative;
+	justify-content:center;
 }
 /*==Skill==*/
 .skill {
@@ -452,7 +454,9 @@ textarea {
 		list-style: none;
 	}
 	#about-page .container .btn {
-		margin-left: 100px;
+		width: 100%;
+	position: relative;
+	justify-content:center;
 	}
 	#about-page .container .title p {
 		display: none;
