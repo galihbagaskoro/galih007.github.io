@@ -339,7 +339,7 @@ textarea {
 		position: fixed;
 		background-color: black;
 		bottom: 0px;
-		height: 45px;
+		height: 60px;
 		width: 100%;
 	}
 	.profile img {
@@ -374,16 +374,13 @@ textarea {
 		width: 100%;
 		position: relative;
 		margin: 0 0 0;
-		justify-content: space-between;
-		justify-content: center;
-		text-align: center;
 		margin-right: 10px;
 		margin-left: -45px;
 	}
 	#menu ul li {
 		list-style-type: none;
 		text-align: center;
-
+		margin-bottom: 30px;
 	}
 	#menu ul li a {
 		text-decoration: none;
