@@ -443,10 +443,10 @@ textarea {
 		animation: typing 2s steps(40) infinite;
 	}
 	/*==About==*/
-	#about-page .container .about-profile {
-		width: 200px;
-		margin-left: 100px;
-		margin-bottom: 20px;
+	#about-page .about-content{
+		margin-left: -20px;
+		position: relative;
+		justify-content: left;
 	}
 	#about-page .container .personal-data ul li {
 		font-size: 15px;
@@ -455,8 +455,8 @@ textarea {
 	}
 	#about-page .container .btn {
 		width: 100%;
-	position: relative;
-	justify-content:center;
+		position: relative;
+		justify-content:center;
 	}
 	#about-page .container .title p {
 		display: none;
